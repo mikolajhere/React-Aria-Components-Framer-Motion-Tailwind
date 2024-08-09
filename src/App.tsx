@@ -66,9 +66,9 @@ export const App = () => {
               initial={{ x: 0 }}
               animate={{ x: [-3, 0, -3], transition: { duration: 0.2 } }}
               exit={{
-                y: 5,
+                y: 7,
                 opacity: 0,
-                scale: 0.8,
+                scale: 0.6,
                 transition: { duration: 0.2 },
               }}
               className={`hover:bg-sky-70 focus:ring-offset-20 rounded-full border border-slate-400 bg-slate-100 px-3 py-1.5 text-sm font-normal leading-5 text-gray-900 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2 ${
