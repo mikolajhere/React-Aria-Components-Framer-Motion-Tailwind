@@ -13,3 +13,6 @@ yarn
 ```bash
 yarn run dev
 ```
+
+## Inspiration
+This tweet posted by @crim_codes https://x.com/crim_codes/status/1821270597449498786 
