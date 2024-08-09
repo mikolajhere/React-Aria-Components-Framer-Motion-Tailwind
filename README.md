@@ -1,26 +1,15 @@
-// write documentation for React Aria Components + Framer Motion + TailwindCSS
-
 # React Aria Components + Framer Motion + TailwindCSS
 
-This is a simple project that demonstrates how to use React Aria Components with Framer Motion and TailwindCSS.
+This is a simple project that demonstrates smooth and neat animations using React Aria Components, Framer Motion and TailwindCSS for adding buttons tags via a text field.
 
 ## Installation
 
 ```bash
-npm install
+yarn
 ```
 
 ## Usage
 
 ```bash
-npm start
+yarn run dev
 ```
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
-```
-
-```
-
