@@ -1,6 +1,7 @@
 import { useState, useRef } from "react";
 import { TextField, Label, Input } from "react-aria-components";
 import { motion, AnimatePresence } from "framer-motion";
+import { MyComponent } from "./Drawer";
 
 export const App = () => {
   const [names, setNames] = useState<string[]>([]);
@@ -53,7 +54,7 @@ export const App = () => {
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
           onKeyDown={handleKeyDown}
-          className={`w-full rounded-md border border-gray-700 p-2`}
+          className={`dark:highlight-white/5 h-12 w-72 space-x-3 rounded-lg bg-white px-4 text-left shadow-sm ring-1 ring-slate-900/10 hover:ring-slate-300 focus:outline-none focus:ring-2 focus:ring-sky-500`}
         />
       </TextField>
 
@@ -80,6 +81,10 @@ export const App = () => {
             </motion.button>
           ))}
         </AnimatePresence>
+      </div>
+
+      <div className="mt-16">
+        <MyComponent />
       </div>
     </div>
   );
