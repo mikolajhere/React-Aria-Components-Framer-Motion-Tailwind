@@ -47,7 +47,7 @@ export const App = () => {
   return (
     <div className="mx-auto max-w-xl py-5">
       <TextField>
-        <Label className="mb-2">Tags input</Label>
+        <Label className="mb-1">Tags input</Label>
         <Input
           placeholder="add filters..."
           value={inputValue}
